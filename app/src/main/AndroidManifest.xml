@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iiitu20329.gym">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Yoga"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yoga">
+        <activity
+            android:name="com.iiitu20329.gym.ThirdActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.iiitu20329.gym.SecondActivity"
+            android:exported="true" />
+        <activity android:name="com.iiitu20329.gym.MainActivity" />
+        <activity
+            android:name="com.iiitu20329.gym.Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
